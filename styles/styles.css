@@ -196,18 +196,19 @@ gap: 20px;
 
   }
 
-  .change-habit h1{
+  .change-habit h1, .team-heading h1{
     font-weight: 900;
     font-size: 48px;
     color: rgb(255, 255, 255);
-    margin-bottom: 1px;
+    margin-bottom: 5px;
     
   }
 
-  .change-habit p{
+  .change-habit p,.team-heading p{
     font-weight: 400;
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
+    
  
   }
 .habit-pic-container{
@@ -302,13 +303,13 @@ font-weight: 600;
 }
 .big2{
     background-color: rgb(34, 34, 34);
-
+    margin-bottom: 80px;
 }
 
 .div-big2{
     display: flex;
-    justify-content: space-between;
-    padding: 80px 200px;
+    justify-content: space-evenly;
+    padding: 80px;
 }
 
 
@@ -393,6 +394,120 @@ table{
 }
 
 
+.big3{
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    height: 665px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    
+
+}
+
+.team-heading{
+    text-align: center;
+    
+}
+
+.big3 img{
+    width: 330px;
+    height: 300px;
+    border-radius: 20px;
+    filter: brightness(70%);
+    
+}
+
+.row-1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+
+}
+
+.row-2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    
+
+
+}
+.member{
+    position: relative;
+}
+ 
+.member h1{
+    position: absolute;
+    top: 78%;
+    left: 7%;
+    color: white ;
+}
+.member p{
+    position: absolute;
+    top: 88%;
+    left: 7%;
+    color: rgb(144, 142, 142) ;
+}
+
+.big4{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 50px 0px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.footer-content1{
+    width: 443px;
+    height: 176px;
+}
+
+.footer-content1 h1{
+    color: rgb(230, 83, 60);
+    font-size: 70px;
+    font-weight: 800;
+    font-style: italic;
+}
+.footer-content1 p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-content2{
+    width: 181px;
+    height: 249px;
+}
+
+.footer-content2 h1{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.footer-content2 h3{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0px;
+
+}
+hr{ 
+    margin: 20px auto;
+    max-width: 1060px;
+    height: 0;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.copy-rights{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+   font-size: 16px;
+   font-weight: 400;
+}
+
 @media screen and (max-width: 576px) {
 
 .sec-margin{
@@ -424,6 +539,7 @@ table{
 
 .bar{
     display: block;
+    margin-top: 5px;
 }
 
 
@@ -492,5 +608,34 @@ table{
 .big2{
     height: 900px;
 }
+
+.row-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 25px;
+    padding-top:30px;
+}
+.row-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 25px;
+}
+.big3{
+    height: 1970px ;
 }
 
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    gap: 20px;
+}
+.footer-content1{
+    width: 317px;
+
+}
+
+
+}
