@@ -686,9 +686,15 @@ margin: 20px 0px;
     padding: 30px 20px 150px 20px;
     gap: 30px;
 }
+.bmi-chart h1{
+    font-size: 25px;
+}
 
 .cal-bmi{
     width: 370px;
+}
+.cal-bmi h1{
+    font-size: 25px;
 }
 .bmi-btn{
     width: 135px;
@@ -718,6 +724,7 @@ margin: 20px 0px;
     gap: 30px;
     display: flex;
     flex-direction: column;
+    padding-left: 40px;
 }
 .membership{
     margin-top: -100px;
