@@ -727,10 +727,11 @@ margin: 20px 0px;
     display: flex;
     flex-direction: column;
     padding-left: 20px;
-    gap: 20px;
+   
 }
 .footer-content1{
     width: 317px;
+    margin-bottom: 150px;
 
 }
 
