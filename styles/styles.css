@@ -63,6 +63,7 @@ body{
 }
 
 /* banner sec style */
+
 .banner{
     display: flex;
     justify-content: space-between;
@@ -468,8 +469,10 @@ table{
     color: rgb(144, 142, 142) ;
 }
 
+
 /* Unique Part
 Package section */
+
 .membership{
     text-align: center;
     margin: 30px auto;
@@ -536,6 +539,7 @@ ul li {
 
 
 /* footer style */
+
 .big4{
     background: rgba(255, 255, 255, 0.1);
     padding: 35px 0px;
